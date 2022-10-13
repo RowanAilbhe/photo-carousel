@@ -6,12 +6,15 @@ img {
  
   object-fit: cover;
 }
+
 * {box-sizing:border-box}
+
 h1 {
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: hsl(246, 71%, 69%);
 }
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
