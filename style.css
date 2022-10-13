@@ -1,24 +1,33 @@
-html {
-  background: linear-gradient(45deg, rgb(255, 0, 0), orange, yellow, green, blue, indigo, violet, red);
+
+
+img {
+  float: center;
+  width:  fit;
+  height: 750px;
+  object-fit: cover;
 }
 * {box-sizing:border-box}
 h1 {
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color:black
+  color: hsl(246, 71%, 69%);
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  max-width: 750px;
   position: relative;
   margin: auto;
+  border: 20px;
+  border-color: blueviolet;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
 }
-
+body {
+  background: linear-gradient(45deg, rgb(255, 0, 0), orange, yellow, green, blue, indigo, violet, red);
+}
 
 /* Caption text */
 .text {
