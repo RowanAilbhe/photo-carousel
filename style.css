@@ -3,7 +3,7 @@
 img {
   float: center;
   width:  fit;
-  height: 750px;
+ 
   object-fit: cover;
 }
 * {box-sizing:border-box}
@@ -14,7 +14,7 @@ h1 {
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 750px;
+  max-width: 500px;
   position: relative;
   margin: auto;
   border: 20px;
